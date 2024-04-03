@@ -7,7 +7,9 @@
 				"dbaeumer.vscode-eslint",
 				"streetsidesoftware.code-spell-checker",
 				"ms-dotnettools.vscode-dotnet-runtime",
-				"vscode-icons-team.vscode-icons"
+				"vscode-icons-team.vscode-icons",
+				"GitHub.vscode-pull-request-github",
+				"bobmagicii.dashyeah"
 			]
 		}
 	},
