@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"githubPullRequests.showPullRequestNumberInTree": true,
+		"terminal.integrated.enableImages": true,
+		"GithubGistExplorer.explorer.gistAscending": true,
+		"GithubGistExplorer.explorer.subscriptionAscending": true
+	}
+}
