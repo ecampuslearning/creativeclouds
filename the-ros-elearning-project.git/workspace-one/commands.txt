@@ -1,0 +1,26 @@
+npm run wsi developer [dependency name to install]
+npm run wsi @workspace/test express
+npm run wsi @workspace/test express --save-prod 
+npm run wsi @workspace/test @types/express --save-dev 
+
+
+
+add-dependencies /home/user/project/package.json moment@2.0.0 react@16.8 redux eslint --dev
+wsi script only modify package.json for provided workspace name, to actually install dependencies u have to run npm i
+
+<i class="fas fa-dice-two In my case, which is similar to yours, I deleted all dependencies from all the inner projects, deleted also the package-lock.json, and installed everything in the root.  "></i>
+
+/
+  node_modules
+  package.json >> all dependencies
+  package-lock.json >> the only lock file that exists in the repo
+  /packages
+    /A
+      package.json >> no dependencies
+      -- no package-lock.json
+    /B
+      package.json >> no dependencies
+      -- no package-lock.json
+    /C
+      package.json >> no dependencies
+      -- no package-lock.json
